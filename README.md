@@ -1,5 +1,7 @@
 # Instagram's UI in React-Native
 
+Flaticons : https://www.flaticon.com/free-icon/messenger_1384090?term=messenger&page=1&position=6&origin=search&related_id=1384090
+
 
 ### Glimpses of the UI :
 
