@@ -58,7 +58,9 @@ export default function Feed() {
       </View>
       <Text style={styles.userInteraction}>
         Liked by{' '}
-        <Text style={styles.userLikes}>pritrage, hitesh_32 and 53 others</Text>
+        <Text style={styles.userLikes}>
+          pritrage, hitesh_32 and 55,30,765 others
+        </Text>
       </Text>
       <View style={styles.captionContainer}>
         <Text style={styles.captionUserName}>
@@ -70,6 +72,8 @@ export default function Feed() {
           </Text>
         </Text>
       </View>
+      <Text style={styles.commentSection}>View all 1250 comments</Text>
+      <Text style={styles.postTiming}>1 hour ago</Text>
       {/* 2nd Post */}
       <View style={styles.userContainer}>
         <Image
@@ -124,7 +128,9 @@ export default function Feed() {
       </View>
       <Text style={styles.userInteraction}>
         Liked by{' '}
-        <Text style={styles.userLikes}>pritrage, hitesh_32 and 53 others</Text>
+        <Text style={styles.userLikes}>
+          pritrage, hitesh_32 and 74,933 others
+        </Text>
       </Text>
       <View style={styles.captionContainer}>
         <Text style={styles.captionUserName}>
@@ -137,6 +143,8 @@ export default function Feed() {
           </Text>
         </Text>
       </View>
+      <Text style={styles.commentSection}>View all 120 comments</Text>
+      <Text style={styles.postTiming}>9 hour ago</Text>
       {/* 3rd Post */}
       <View style={styles.userContainer}>
         <Image
@@ -488,5 +496,13 @@ const styles = StyleSheet.create({
     fontSize: 14,
     color: '#000',
     fontWeight: '400',
+  },
+  commentSection: {
+    paddingHorizontal: 10,
+  },
+  postTiming: {
+    fontSize: 10,
+    padding: 10,
+    paddingBottom: 20,
   },
 });
